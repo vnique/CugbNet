@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DMOffWallActivity" >
+
+    <ScrollView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/aow_b" />
+
+            <TextView
+                android:id="@+id/vosion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:text="V3.1.0"
+                android:textColor="#ff522a"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/open_offerwall"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/vosion"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/aow_button_bg"
+                android:text="打开积分墙"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/checkpoints"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/open_offerwall"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/aow_button_bg"
+                android:text="查询积分"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/checkpoints"
+                android:layout_marginTop="25dp"
+                android:background="#cccccc" />
+
+            <TextView
+                android:id="@+id/showPointstitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="当前积分情况"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/showPoints"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showPointstitle"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/consumePoint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showPoints"
+                android:layout_marginTop="10dp"
+                android:hint="请输入要消费的积分"
+                android:numeric="integer" />
+
+            <Button
+                android:id="@+id/consumePoints"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/consumePoint"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/aow_submit" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

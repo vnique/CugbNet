@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CugbNet</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="not_connected">Not connected</string>
+    <string name="login">Login</string>
+    <string name="please_input_username">Please input username！~</string>
+    <string name="please_input_password">Please input password</string>
+    <string name="connected">Conneted</string>
+    <string name="logout">Logout</string>
+    <string name="logout_successfully">Logout successfully！</string>
+    <string name="internet_is_ok">Internet is ok</string>
+    <string name="login_successfully">Login successfully~</string>
+    <string name="password_error">Password error~</string>
+    <string name="cugb_not_connected">Cugb not connected？：</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="is_the_latest">is_the_latest</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="clear">Clear</string>
+
+    <string name="take_photo">Take photo</string>
+    <string name="import_photo">Import photo</string>
+    <string name="home_page">HomePage</string>
+    <string name="ads">ADs</string>
+
+    <string name="communicate">Communicate</string>
+    <string name="update">Update</string>
+    <string name="load_web_bg">Load web bg</string>
+    <string name="share_your_bg">Share your bg</string>
+    <string name="is_uploading">uploading...</string>
+    <string name="title_activity_test">TestActivity</string>
+
+
+    <string name="ad_unit_id">ca-app-pub-2543992272653311/9632822381</string>
+    <string name="liulaing">flow</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2543992272653311/7058655582</string>
+    <string name="try_again">try again</string>
+</resources>

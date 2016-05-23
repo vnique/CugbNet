@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/import_photo" />
+        <item
+            android:id="@+id/nav_detail"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/liulaing" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/home_page" />
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:visible="false"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share_your_bg" />
+            <item
+                android:id="@+id/nav_ad"
+                android:icon="@drawable/ic_menu_camera"
+                android:visible="true"
+                android:title="@string/ads" />
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/update" />
+        </menu>
+    </item>
+
+</menu>

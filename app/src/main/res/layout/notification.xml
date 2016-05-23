@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66ff00ff"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/wydewy" />
+
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/image"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#ffffffff"
+        android:text="已登录"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#660000ff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="登录"
+        android:textSize="30sp" />
+
+</RelativeLayout>
